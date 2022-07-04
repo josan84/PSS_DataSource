@@ -1,0 +1,78 @@
+[
+    {
+        "permissions": [
+            {
+                "action": "update",
+                "resource": "position"
+            },
+            {
+                "action": "read",
+                "resource": "portfolio"
+            }
+        ],
+        "role": "customer"
+    },
+    {
+        "permissions": [
+            {
+                "action": "read",
+                "resource": "position"
+            },
+            {
+                "action": "read",
+                "resource": "portfolio"
+            },
+            {
+                "action": "create",
+                "resource": "position"
+            },
+            {
+                "action": "create",
+                "resource": "portfolio"
+            },
+            {
+                "action": "update",
+                "resource": "position"
+            },
+            {
+                "action": "update",
+                "resource": "portfolio"
+            }
+        ],
+        "role": "portfolio_manager"
+    },
+    {
+        "permissions": [
+            {
+                "action": "read",
+                "resource": "position"
+            },
+            {
+                "action": "update",
+                "resource": "position"
+            },
+            {
+                "action": "update",
+                "resource": "portfolio"
+            }
+        ],
+        "role": "support"
+    },
+    {
+        "permissions": [
+            {
+                "action": "read",
+                "resource": "portfolio"
+            },
+            {
+                "action": "update",
+                "resource": "portfolio"
+            },
+            {
+                "action": "update",
+                "resource": "position"
+            }
+        ],
+        "role": "admin"
+    }
+]
